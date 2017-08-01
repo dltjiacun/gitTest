@@ -28,10 +28,30 @@ namespace VisualWebGuiApplication1
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.label1 = new Gizmox.WebGUI.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(161, 127);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ÄãºÃÄãºÃÄãºÃ";
+            // 
+            // Form1
+            // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.Controls.Add(this.label1);
+            this.Size = new System.Drawing.Size(526, 415);
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Gizmox.WebGUI.Forms.Label label1;
     }
 }
